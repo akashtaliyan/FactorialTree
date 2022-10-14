@@ -21,6 +21,7 @@ function draw() {
     stroke(0,182,148);
     translate((windowWidth) / 4, height);
     branch(200);
+    // Get The element by id and add the current time to the element
     document.getElementById('time').innerHTML = xTime.toDateString() + "<br>" + xTime.toLocaleTimeString();
 
 }
